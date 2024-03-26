@@ -5,20 +5,25 @@
 }
 
 /* CLASSI LAYOUT */
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: red
+}
+
 main {
     justify-content: center;
     background-color: blueviolet;
 }
 
 .container {
-    width: 90vw;
-    height: calc(100hv - 100px);
+    width: 80vw;
+    height: calc(100hv - 200px);
     background-color: blue;
 }
 
 .col-100 {
     width: 100%;
-    height: 700px;
     background-color: black;
 }
 
@@ -35,6 +40,13 @@ main {
 
 footer {
     width: 100vw;
-    height: 100px;
+    height: 120px;
     background-color: red;
 }
+
+.f-col img {
+    width: 100%;
+    height: 100%;
+}
+
+/* CLASSI DI UTILITY */
